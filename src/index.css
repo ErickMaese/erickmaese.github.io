@@ -15,11 +15,13 @@ body {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 2rem;
+  text-align: center;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 10rem;
+  text-align: center;
 }
 
 .app{
@@ -79,18 +81,17 @@ h1 {
 
 .app .description {
   position: relative;
-  right: -90%;
   transform-origin: 0 0;
-  transform: rotate(269deg);
 }
 
 .app .bottom {
   display: flex;
+  font-size: 2rem;
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
   margin: 1rem auto;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 0.2);
 }
